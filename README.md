@@ -1,4 +1,4 @@
-# Lading Page com Tailwind
+# Landing Page com Tailwind
 
 Site responsivo com o tema de tecnologia
 
