@@ -1,10 +1,14 @@
 import { testimonials } from "../constants/index.jsx";
 
+// import Slider from "react-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+
 export const Testimonials = () => {
   return (
     <div className="mt-20 tracking-wide">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-10 lg:my-20">
-        Testimonials
+        Testemunhas
       </h2>
       <div className="flex flex-wrap justify-center">
         {testimonials.map((people, index) => (

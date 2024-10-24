@@ -1,24 +1,16 @@
-import { Navbar } from "./components/Navbar";
-import { HeroSection } from "./components/HeroSection";
-import { FeatureSection } from "./components/FeatureSection";
-import { GameFlowSection } from "./components/GameFlowSection";
-import { Pricing } from "./components/Pricing";
-import { Testimonials } from "./components/Testimonials";
-import { Footer } from "./components/Footer";
+import { Page } from "./components/Page/Page";
+import { Login } from "./components/Login/Login";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <div className="max-w-7xl mx-auto pt-20 px-6">
-        <HeroSection />
-        <FeatureSection />
-        <GameFlowSection />
-        <Pricing />
-        <Testimonials />
-        <Footer />
-      </div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Page />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </Router>
   );
 }
 

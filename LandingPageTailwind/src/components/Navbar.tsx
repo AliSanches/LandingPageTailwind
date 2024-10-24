@@ -1,14 +1,21 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/LOGO_DEVOPS_SO_GLOBO2 BRANCO.png";
 import { navigations } from "../constants/index.jsx";
+
+import { useNavigate } from "react-router-dom";
 
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 export const Navbar = () => {
   const [mobileModal, setMobileModal] = useState(false);
+  const navigate = useNavigate();
 
   const toggleModal = () => {
     setMobileModal(!mobileModal);
+  };
+
+  const handleLogin = () => {
+    navigate("/login");
   };
 
   return (
@@ -16,8 +23,8 @@ export const Navbar = () => {
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <img className="w-12 h-12 mr-2" src={logo} alt="logo" />
-            <span className="text-xl tracking-tight">Tecnology</span>
+            <img className="w-34 h-12 mr-2" src={logo} alt="logo" />
+            {/* <span className="text-xl tracking-tight">Tecnology</span> */}
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navigations.map((item, index) => (
@@ -27,14 +34,17 @@ export const Navbar = () => {
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
-              Sing In
-            </a>
+            <button
+              className="py-2 px-3 border rounded-md"
+              onClick={handleLogin}
+            >
+              Login
+            </button>
             <a
               href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 border rounded-md"
+              className="bg-gradient-to-r  from-blue-500 to-blue-800 py-2 px-3 border rounded-md"
             >
-              Create Account
+              Criar Conta
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -53,14 +63,17 @@ export const Navbar = () => {
               ))}
             </ul>
             <div className="flex flex-col space-y-6">
-              <a href="#" className="py-2 px-3 border rounded-md">
-                Sing in
-              </a>
+              <button
+                className="py-2 px-3 border rounded-md"
+                onClick={handleLogin}
+              >
+                Login
+              </button>
               <a
                 href="#"
-                className="py-2 px-3 border rounded-md bg-gradient-to-r from-orange-500 to-orange-800"
+                className="py-2 px-3 border rounded-md bg-gradient-to-r from-blue-500 to-blue-800"
               >
-                Create Account
+                Criar Conta
               </a>
             </div>
           </div>

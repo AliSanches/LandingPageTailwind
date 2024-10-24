@@ -13,10 +13,11 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navigations = [
-  { label: "Home", href: "#" },
-  { label: "Services", href: "#" },
-  { label: "Portfólio", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: "Inicio", href: "#" },
+  { label: "Serviços", href: "#" },
+  { label: "Estrutura", href: "#" },
+  { label: "Valores", href: "#" },
+  { label: "Contatos", href: "#" },
 ];
 
 export const testimonials = [
@@ -61,62 +62,62 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Interfaces Intuitivas",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Trazendo modernidade e interações com o usuário desperta interece e curiosidade aos seus clientes.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Compatibilidade em Multiplataformas",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Sistemas e sites que são acessiveis de todos os dispositivos do mundo eleva sua empresa para outro patamar.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Layouts Variados",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Explore uma ampla gama de layouts personalizáveis que permitem adaptar o design do seu projeto às suas necessidades, garantindo uma apresentação visual única e atraente.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Infraestrutura",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Estabeleça uma base sólida para seu negócio com uma infraestrutura robusta que suporta operações eficientes, garante segurança e facilita o crescimento escalável.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Servidores em Nuvem",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Otimize sua infraestrutura com servidores em nuvem que oferecem escalabilidade, flexibilidade e segurança, permitindo acesso a recursos de computação a qualquer hora e de qualquer lugar.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Análises e Dashboards",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Transforme dados em insights com dashboards interativos que permitem visualizar informações de forma clara e dinâmica, facilitando a tomada de decisões estratégicas.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Definição de Requisitos",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Realizaremos uma reunião para entender as necessidades e objetivos do cliente, alinhando expectativas desde o início.",
   },
   {
-    title: "Review code without worry",
+    title: "Metodologia Ágil",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Utilizaremos uma abordagem ágil, como Scrum, para permitir adaptações rápidas durante o desenvolvimento, garantindo maior flexibilidade e colaboração.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Feedback Regular",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Implementamos ciclos de feedback com o cliente durante o processo, facilitando ajustes rápidos e alinhamento.",
   },
   {
-    title: "Share work in minutes",
+    title: "Testes Rigorosos:",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Realizamos testes de usabilidade e compatibilidade antes do lançamento para garantir uma experiência positiva ao usuário.",
   },
 ];
 
