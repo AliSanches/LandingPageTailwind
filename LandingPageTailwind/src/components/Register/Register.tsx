@@ -1,16 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/rocket-chat.png";
-import "./Login.css";
 
-export const Login = () => {
+export const Register = () => {
   const navigate = useNavigate();
 
   const handleExit = () => {
     navigate("/");
-  };
-
-  const handleRegister = () => {
-    navigate("/register");
   };
 
   return (
@@ -27,6 +22,13 @@ export const Login = () => {
         </div>
         <div className="flex flex-col w-64 mx-auto gap-3 pl-2">
           <div>
+            <label htmlFor="">Nome</label>
+            <input
+              className=" text-black bg-white border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-300 ease-in-out shadow-sm"
+              type="text"
+            />
+          </div>
+          <div>
             <label htmlFor="">Usuário</label>
             <input
               className=" text-black bg-white border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-300 ease-in-out shadow-sm"
@@ -42,17 +44,8 @@ export const Login = () => {
           </div>
           <div>
             <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:bg-blue-600 hover:scale-105 shadow-lg">
-              Entrar
+              Criar
             </button>
-
-            <div className="text-right mt-8 mr-5 h-5">
-              <button
-                onClick={handleRegister}
-                className="bg-white text-black font-semibold py-1 px-2 rounded transition duration-300 ease-in-out transform hover:bg-blue-600 hover:scale-105 hover:text-white shadow-lg"
-              >
-                Criar Conta
-              </button>
-            </div>
           </div>
         </div>
       </div>

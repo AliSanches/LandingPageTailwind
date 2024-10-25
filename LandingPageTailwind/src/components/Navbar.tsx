@@ -41,7 +41,7 @@ export const Navbar = () => {
               Login
             </button>
             <a
-              href="#"
+              href="/register"
               className="bg-gradient-to-r  from-blue-500 to-blue-800 py-2 px-3 border rounded-md"
             >
               Criar Conta

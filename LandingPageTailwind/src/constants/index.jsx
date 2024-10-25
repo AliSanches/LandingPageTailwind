@@ -1,9 +1,9 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
+import { PanelsTopLeft } from "lucide-react";
+import { Cpu } from "lucide-react";
 import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import { LayoutPanelLeft } from "lucide-react";
+import { ServerCog } from "lucide-react";
+import { ChartNoAxesCombined } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -22,46 +22,46 @@ export const navigations = [
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "João Silva",
+    company: "Soluções Estelares",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "Estou extremamente satisfeito com os serviços prestados. A equipe foi responsiva, profissional e entregou resultados além das minhas expectativas.",
   },
   {
     user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    company: "Tecnologias Horizonte Azul",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "Não poderia estar mais feliz com o resultado do nosso projeto. A criatividade e as habilidades de resolução de problemas da equipe foram fundamentais para trazer nossa visão à vida.",
   },
   {
     user: "David Johnson",
-    company: "Quantum Innovations",
+    company: "Inovações Quânticas",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Trabalhar com esta empresa foi um prazer. A atenção aos detalhes e o compromisso com a excelência são dignos de elogios. Eu a recomendaria a qualquer um que esteja procurando um serviço de alta qualidade.",
   },
   {
     user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    company: "Dinâmica de Fusão",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "Trabalhar com a equipe da XYZ Company foi um divisor de águas para o nosso projeto. A atenção aos detalhes e as soluções inovadoras nos ajudaram a alcançar nossos objetivos mais rápido do que pensávamos ser possível. Estamos gratos pela expertise e profissionalismo deles!",
   },
   {
     user: "Michael Wilson",
-    company: "Visionary Creations",
+    company: "Criações Visionárias",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "Estou impressionado com o nível de profissionalismo e dedicação demonstrados pela equipe. Eles conseguiram superar nossas expectativas e entregar resultados excepcionais.",
   },
   {
     user: "Emily Davis",
-    company: "Synergy Systems",
+    company: "Sistemas de Sinergia",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "A equipe foi acima e além para garantir que nosso projeto fosse um sucesso. Sua expertise e dedicação são incomparáveis. Estou ansiosa para trabalhar com eles novamente no futuro.",
   },
 ];
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
+    icon: <PanelsTopLeft />,
     text: "Interfaces Intuitivas",
     description:
       "Trazendo modernidade e interações com o usuário desperta interece e curiosidade aos seus clientes.",
@@ -73,25 +73,25 @@ export const features = [
       "Sistemas e sites que são acessiveis de todos os dispositivos do mundo eleva sua empresa para outro patamar.",
   },
   {
-    icon: <ShieldHalf />,
+    icon: <LayoutPanelLeft />,
     text: "Layouts Variados",
     description:
       "Explore uma ampla gama de layouts personalizáveis que permitem adaptar o design do seu projeto às suas necessidades, garantindo uma apresentação visual única e atraente.",
   },
   {
-    icon: <BatteryCharging />,
+    icon: <Cpu />,
     text: "Infraestrutura",
     description:
       "Estabeleça uma base sólida para seu negócio com uma infraestrutura robusta que suporta operações eficientes, garante segurança e facilita o crescimento escalável.",
   },
   {
-    icon: <PlugZap />,
+    icon: <ServerCog />,
     text: "Servidores em Nuvem",
     description:
       "Otimize sua infraestrutura com servidores em nuvem que oferecem escalabilidade, flexibilidade e segurança, permitindo acesso a recursos de computação a qualquer hora e de qualquer lugar.",
   },
   {
-    icon: <GlobeLock />,
+    icon: <ChartNoAxesCombined />,
     text: "Análises e Dashboards",
     description:
       "Transforme dados em insights com dashboards interativos que permitem visualizar informações de forma clara e dinâmica, facilitando a tomada de decisões estratégicas.",
@@ -155,25 +155,25 @@ export const pricingOptions = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "Introdução" },
+  { href: "#", text: "Documentação" },
+  { href: "#", text: "Tutoriais" },
+  { href: "#", text: "Referência da API" },
+  { href: "#", text: "Fóruns da Comunidade" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
+  { href: "#", text: "Recursos" },
+  { href: "#", text: "Dispositivos Suportados" },
+  { href: "#", text: "Requisitos do Sistema" },
   { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "Notas de Lançamento" },
 ];
 
 export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
+  { href: "#", text: "Eventos" },
+  { href: "#", text: "Encontros" },
+  { href: "#", text: "Conferências" },
   { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "Empregos" },
 ];

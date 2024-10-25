@@ -14,16 +14,14 @@ export const HeroSection = () => {
       <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
         A construção de sites e sistemas é vital para alavancar um negócio. Um
         site bem projetado serve como vitrine, tornando produtos e serviços
-        acessíveis. Sistemas personalizados, como e-commerces, otimizam
-        processos e melhoram a experiência do usuário, aumentando o alcance e as
-        vendas da empresa.
+        acessíveis.
       </p>
       <div className="flex justify-center my-10">
         <a
           href="#"
           className="bg-gradient-to-r from-blue-500 to-blue-800 py-3 px-4 mx-3 rounded-md transition duration-700 ease-in-out hover:from-blue-800 hover:to-blue-500"
         >
-          Começar gratis
+          Começar
         </a>
         <a
           href="#"
