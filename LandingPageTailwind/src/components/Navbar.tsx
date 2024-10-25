@@ -18,6 +18,10 @@ export const Navbar = () => {
     navigate("/login");
   };
 
+  const handleRegister = () => {
+    navigate("/register");
+  };
+
   return (
     <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80">
       <div className="container px-4 mx-auto relative text-sm">
@@ -40,12 +44,12 @@ export const Navbar = () => {
             >
               Login
             </button>
-            <a
-              href="/register"
+            <button
+              onClick={handleRegister}
               className="bg-gradient-to-r  from-blue-500 to-blue-800 py-2 px-3 border rounded-md"
             >
               Criar Conta
-            </a>
+            </button>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
             <button className="" onClick={toggleModal}>
@@ -69,12 +73,12 @@ export const Navbar = () => {
               >
                 Login
               </button>
-              <a
-                href="#"
+              <button
+                onClick={handleRegister}
                 className="py-2 px-3 border rounded-md bg-gradient-to-r from-blue-500 to-blue-800"
               >
                 Criar Conta
-              </a>
+              </button>
             </div>
           </div>
         )}

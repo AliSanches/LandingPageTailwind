@@ -13,11 +13,10 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navigations = [
-  { label: "Inicio", href: "#" },
-  { label: "Serviços", href: "#" },
-  { label: "Estrutura", href: "#" },
-  { label: "Valores", href: "#" },
-  { label: "Contatos", href: "#" },
+  { label: "Inicio", href: "#inicio" },
+  { label: "Serviços", href: "#servicos" },
+  { label: "Estrutura", href: "#estrutura" },
+  { label: "Contatos", href: "#contato" },
 ];
 
 export const testimonials = [

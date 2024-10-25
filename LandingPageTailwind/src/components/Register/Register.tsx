@@ -10,7 +10,7 @@ export const Register = () => {
 
   return (
     <div className="lg:max-w-7xl min-h-screen lg:mx-auto lg:pt-20 lg:px-6 flex justify-center items-center">
-      <div className="sm:w-96 h-96 bg-gradient-to-r  from-blue-500 to-blue-800 rounded-md text-white flex flex-col items-center">
+      <div className="sm:w-96 h-auto bg-gradient-to-r  from-blue-500 to-blue-800 rounded-md text-white flex flex-col items-center">
         <div className="w-full text-right h-5">
           <button
             className="w-5 h-5 mx-1 my-1 exit"
@@ -43,7 +43,7 @@ export const Register = () => {
             />
           </div>
           <div>
-            <button className="bg-blue-500 text-white font-semibold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:bg-blue-600 hover:scale-105 shadow-lg">
+            <button className=" mb-2 bg-blue-500 text-white font-semibold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:bg-blue-600 hover:scale-105 shadow-lg">
               Criar
             </button>
           </div>
